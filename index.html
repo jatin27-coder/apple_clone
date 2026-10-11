@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#161617">
+  <meta name="description" content="Discover the latest from Apple: iPhone, Mac, Apple Watch, and more.">
+  <title>Apple</title>
+  <link rel="preconnect" href="https://www.apple.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="global-nav" aria-label="Main navigation">
+      <a class="apple-mark" href="#top" aria-label="Apple home"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M319 269c0-37 16-64 50-85-19-27-47-42-85-45-36-3-75 21-90 21s-50-20-78-20C58 142 0 184 0 279c0 28 5 57 15 86 14 37 63 127 114 125 27-1 46-19 79-19 32 0 50 19 79 19 52-1 105-82 118-119-75-36-86-95-86-102zM262 104c19-24 29-57 26-89-32 2-70 21-91 46-19 22-35 54-32 86 35 3 69-15 97-43z"/></svg></a>
+      <div class="nav-links" id="nav-links">
+        <a href="#iphone">Store</a><a href="#mac">Mac</a><a href="#ipad">iPad</a>
+        <a href="#iphone">iPhone</a><a href="#watch">Watch</a><a href="#airpods">AirPods</a><a href="#footer">Support</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-button search-toggle" type="button" aria-label="Search" aria-expanded="false" title="Search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.7" cy="8.7" r="5.8"/><path d="m13 13 4 4"/></svg></button>
+        <button class="icon-button bag-toggle" type="button" aria-label="Shopping bag" aria-expanded="false" title="Shopping bag"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 6.5h11l1 11h-13l1-11Z"/><path d="M7.5 7V5a2.5 2.5 0 0 1 5 0v2"/></svg><span class="bag-count" aria-live="polite"></span></button>
+        <button class="icon-button menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" title="Menu"><span></span><span></span></button>
+      </div>
+    </nav>
+    <div class="search-panel" aria-hidden="true">
+      <form class="search-form" role="search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.7" cy="8.7" r="5.8"/><path d="m13 13 4 4"/></svg><input type="search" placeholder="Search apple.com" aria-label="Search products"><button type="button" class="search-close" aria-label="Close search">×</button></form>
+      <div class="search-results" aria-live="polite"></div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero hero-iphone" id="iphone" aria-labelledby="iphone-title">
+      <img class="hero-image" src="https://www.apple.com/v/homepage/images/iphone-18-pro/a/hero_iphone_18_pro__fqe1motd0ymy_medium.jpg" alt="iPhone 18 Pro in burgundy with its advanced camera system">
+      <div class="hero-copy hero-copy-light"><p class="eyebrow">The all-new</p><h1 id="iphone-title">iPhone 18 Pro</h1><p class="hero-tagline">Pro further.</p>
+        <div class="hero-actions"><a class="button button-blue" href="https://www.apple.com/iphone-18-pro/" target="_blank" rel="noreferrer">Learn more <span>›</span></a><button class="button button-outline-light add-button" data-product="iPhone 18 Pro" data-price="1199">Buy <span>›</span></button></div>
+      </div>
+    </section>
+    <section class="hero hero-duo" id="discover" aria-labelledby="duo-title">
+      <img class="hero-image" src="https://www.apple.com/v/homepage/images/iphone-duo/a/hero_iphone_duo_announce__fh4u8yzndpe2_medium.jpg" alt="iPhone Duo unfolded to reveal its edge-to-edge display">
+      <div class="hero-copy hero-copy-dark"><p class="eyebrow">A whole new perspective</p><h2 id="duo-title">iPhone Duo</h2><p class="hero-tagline">Hello, hello.</p><p class="availability">Pre-order starting 5:00 a.m. PT on 10.16<br>Available starting 10.23</p>
+        <div class="hero-actions"><a class="button button-blue" href="https://www.apple.com/iphone-duo/" target="_blank" rel="noreferrer">Learn more <span>›</span></a><button class="button button-outline-blue add-button" data-product="iPhone Duo" data-price="1799">View pricing <span>›</span></button></div>
+      </div>
+    </section>
+
+    <section class="collection" aria-label="Explore more from Apple">
+      <div class="section-heading"><div><p class="eyebrow">Made for what moves you</p><h2>Meet your next.</h2></div></div>
+      <div class="product-grid">
+        <article class="product-tile tile-mac" id="mac"><div class="tile-copy"><p class="eyebrow">Light years ahead</p><h3>MacBook Air</h3><p>Now supercharged by M5.</p><div class="tile-actions"><a href="https://www.apple.com/macbook-air/" target="_blank" rel="noreferrer">Learn more <span>›</span></a><button class="text-button add-button" data-product="MacBook Air" data-price="1299">Buy <span>›</span></button></div></div><img src="https://www.apple.com/v/macbook-air/z/images/overview/hero/hero_static__c9sislzzicq6_medium.png" alt="Two sky-blue MacBook Air laptops"></article>
+        <article class="product-tile tile-airpods" id="airpods"><div class="tile-copy"><p class="eyebrow">Sound that surrounds</p><h3>AirPods Pro 3</h3><p>Hear the difference.</p><div class="tile-actions"><a href="https://www.apple.com/airpods-pro/" target="_blank" rel="noreferrer">Learn more <span>›</span></a><button class="text-button add-button" data-product="AirPods Pro 3" data-price="249">Buy <span>›</span></button></div></div><img src="https://www.apple.com/v/airpods-pro/t/images/overview/welcome/hero__b0eal3mn03ua_medium.jpg" alt="AirPods Pro 3 with charging case"></article>
+        <article class="product-tile tile-watch" id="watch"><div class="tile-copy"><p class="eyebrow">A healthier you</p><h3>Apple Watch</h3><p>More to love. More to move.</p><div class="tile-actions"><a href="https://www.apple.com/watch/" target="_blank" rel="noreferrer">Learn more <span>›</span></a><button class="text-button add-button" data-product="Apple Watch" data-price="399">Buy <span>›</span></button></div></div><div class="watch-art" aria-hidden="true"><div class="watch-band"></div><div class="watch-face"><span>09</span><span>41</span><i></i></div></div></article>
+        <article class="product-tile tile-ipad" id="ipad"><div class="tile-copy"><p class="eyebrow">Creativity takes flight</p><h3>iPad Air</h3><p>Now supercharged by M4.</p><div class="tile-actions"><a href="https://www.apple.com/ipad-air/" target="_blank" rel="noreferrer">Learn more <span>›</span></a><button class="text-button add-button" data-product="iPad Air" data-price="599">Buy <span>›</span></button></div></div><div class="ipad-art" aria-hidden="true"><div class="ipad-screen"></div></div></article>
+      </div>
+    </section>
+
+    <section class="services" aria-label="Apple services"><div class="services-intro"><p class="eyebrow">The Apple experience</p><h2>It all works<br>beautifully together.</h2></div><div class="service-links">
+      <a href="https://www.apple.com/apple-one/" target="_blank" rel="noreferrer"><span class="service-icon service-one"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M319 269c0-37 16-64 50-85-19-27-47-42-85-45-36-3-75 21-90 21s-50-20-78-20C58 142 0 184 0 279c0 28 5 57 15 86 14 37 63 127 114 125 27-1 46-19 79-19 32 0 50 19 79 19 52-1 105-82 118-119-75-36-86-95-86-102zM262 104c19-24 29-57 26-89-32 2-70 21-91 46-19 22-35 54-32 86 35 3 69-15 97-43z"/></svg></span><span><strong>Apple One</strong><small>Bundle your favorites.</small></span><span class="arrow">↗</span></a>
+      <a href="https://www.apple.com/apple-tv-plus/" target="_blank" rel="noreferrer"><span class="service-icon service-tv">tv+</span><span><strong>Apple TV</strong><small>Stories worth staying in for.</small></span><span class="arrow">↗</span></a>
+      <a href="https://www.apple.com/apple-music/" target="_blank" rel="noreferrer"><span class="service-icon service-music">♫</span><span><strong>Apple Music</strong><small>All the music you love.</small></span><span class="arrow">↗</span></a>
+    </div></section>
+  </main>
+
+  <footer class="site-footer" id="footer"><p>‡ Shop the latest Apple products and find something wonderful.</p><div class="footer-bottom"><a class="footer-logo" href="#top" aria-label="Back to top"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M319 269c0-37 16-64 50-85-19-27-47-42-85-45-36-3-75 21-90 21s-50-20-78-20C58 142 0 184 0 279c0 28 5 57 15 86 14 37 63 127 114 125 27-1 46-19 79-19 32 0 50 19 79 19 52-1 105-82 118-119-75-36-86-95-86-102zM262 104c19-24 29-57 26-89-32 2-70 21-91 46-19 22-35 54-32 86 35 3 69-15 97-43z"/></svg></a><span>More ways to shop: <a href="https://www.apple.com/retail/" target="_blank" rel="noreferrer">Find an Apple Store</a> or other retailer near you.</span><span>Copyright © 2026 Apple Inc. All rights reserved.</span><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noreferrer">Privacy Policy</a></div></footer>
+  <div class="drawer-backdrop" aria-hidden="true"></div>
+  <aside class="bag-drawer" aria-label="Your shopping bag" aria-hidden="true"><div class="drawer-heading"><h2>Your Bag</h2><button class="drawer-close" type="button" aria-label="Close bag">×</button></div><div class="bag-content"></div><div class="bag-summary" hidden><div class="bag-total"><span>Subtotal</span><strong></strong></div><button class="checkout-button" type="button">Check Out</button><p>Ships free. Easy returns.</p></div></aside>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
